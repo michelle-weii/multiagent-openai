@@ -296,8 +296,7 @@ def run_example_1_only(
 
 
 if __name__ == "__main__":
-    # Update this path to your dataset location
-    dataset_path = "../tictactoe/tictactoe_failed_examples.json"
+    dataset_path = "../data/tictactoe_failed_examples.json"
     run_example_1_only(
         dataset_path=dataset_path,
         model="gpt-5",
